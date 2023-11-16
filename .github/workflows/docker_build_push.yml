@@ -62,6 +62,4 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           tags: |
             ccgreen93/ci:latest
-            ccgreen93/ci:${{ github.ref_name }}
             ghcr.io/ccgreen93/ci:latest
-            ghcr.io/ccgreen93/ci:${{ github.ref_name }}
